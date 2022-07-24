@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+
+    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-chain-app-dev.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/animated.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.css') }}">
+
+</head>
+
+<body>
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="{{ url_for('static',filename='images/nana.png') }}" height="60px" width="80px"
+                             alt="Chain App Dev">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="#services">Services</a></li>
+                        <li class="scroll-to-section"><a href="#about">About</a></li>
+                        <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
+                        <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
+                        <li>
+                            <div class="gradient-button"><a id="modal_trigger" href="#modal"><i
+                                    class="fa fa-sign-in-alt"></i> Sign In Now</a></div>
+                        </li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article class="centredBody">
+    <H1>{{ variable }} Page</H1>
+</article>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Scripts -->
+<script src="{{ url_for('static',filename='vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static',filename='js/owl-carousel.js') }}"></script>
+<script src="{{ url_for('static',filename='js/animation.js') }}"></script>
+<script src="{{ url_for('static',filename='js/imagesloaded.js') }}"></script>
+<script src="{{ url_for('static',filename='js/popup.js') }}"></script>
+<script src="{{ url_for('static',filename='js/custom.js') }}"></script>
+</body>
+</html>

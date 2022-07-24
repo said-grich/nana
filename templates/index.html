@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+
+    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-chain-app-dev.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/animated.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.css') }}">
+
+</head>
+
+<body>
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="{{ url_for('static',filename='images/nana.png') }}" height="60px" width="80px"
+                             alt="Chain App Dev">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="#services">Services</a></li>
+                        <li class="scroll-to-section"><a href="#about">About</a></li>
+                        <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
+                        <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
+                        <li>
+                            <div class="gradient-button"><a id="modal_trigger" href="#modal"><i
+                                    class="fa fa-sign-in-alt"></i> Sign In Now</a></div>
+                        </li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article class="container-fluid main-bk">
+
+    <section class="box-flex">
+        <div id="mCarousel" class="carousel slide col-6" style="z-index: 99999">
+            <ol class="carousel-indicators">
+                <li data-target="#mCarousel" data-slide-to="0"></li>
+                <li data-target="#mCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#mCarousel" data-slide-to="2"></li>
+                <li data-target="#mCarousel" data-slide-to="3"></li>
+                <li data-target="#mCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img src="{{ url_for('static',filename='images/4.jfif') }}" style="width:100%;height:400px;">
+                </div>
+                <div class="item active">
+                    <img src="{{ url_for('static',filename='images/1.jfif') }}" style="width:100%;height:400px;">
+                </div>
+                <div class="item">
+                    <img src="{{ url_for('static',filename='images/2.jfif') }}" style="width:100%;height:400px;">
+                </div>
+                <div class="item">
+                    <img src="{{ url_for('static',filename='images/3.jfif') }}" style="width:100%;height:400px;">
+                </div>
+                <div class="item">
+                    <img src="{{ url_for('static',filename='images/5.jfif') }}" style="width:100%;height:400px;">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#mCarousel" data-slide="prev">
+                <span class="fa fa-chevron-left fa-lg" style="margin-top:200px"></span>
+            </a>
+
+            <a class="right carousel-control" href="#mCarousel" data-slide="next">
+                <span class="fa fa-chevron-right fa-lg" style="margin-top:200px"></span>
+            </a>
+        </div>
+
+    </section>
+    <section class="box-flex">
+
+        <dev class="col-6 d-flex justify-content-around flex-wrap ">
+            <a href="page/its help desk">
+                <img src="{{ url_for('static',filename='icons/ITShelpdesk.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/people portal">
+                <img src="{{ url_for('static',filename='icons/1people potal.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/work environment">
+                <img src="{{ url_for('static',filename='icons/2work environment.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/nana Team">
+                <img src="{{ url_for('static',filename='icons/3nt.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+
+            <a href="page/insurances">
+                <img src="{{ url_for('static',filename='icons/4insurances.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/Vacations">
+                <img src="{{ url_for('static',filename='icons/5vactions.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/Events">
+                <img src="{{ url_for('static',filename='icons/6events.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+            <a href="page/Courses">
+                <img src="{{ url_for('static',filename='icons/7cours.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+                      <a href="page/communication channels">
+                <img src="{{ url_for('static',filename='icons/8cc.png') }}" alt="Its help desk"
+                     class="iconImag">
+            </a>
+        </dev>
+
+    </section>
+
+</article>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Scripts -->
+<script src="{{ url_for('static',filename='vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static',filename='js/owl-carousel.js') }}"></script>
+<script src="{{ url_for('static',filename='js/animation.js') }}"></script>
+<script src="{{ url_for('static',filename='js/imagesloaded.js') }}"></script>
+<script src="{{ url_for('static',filename='js/popup.js') }}"></script>
+<script src="{{ url_for('static',filename='js/custom.js') }}"></script>
+</body>
+</html>
